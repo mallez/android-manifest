@@ -385,5 +385,4 @@
   <!-- mako repos -->
   <project name="TheMuppets/proprietary_vendor_lge.git" path="vendor/lge" remote="github" revision="cm-10.1"/>
   <project name="CyanogenMod/android_device_lge_mako" path="device/lge/mako" remote="github" revision="cm-10.1"/>
-  <project name="CyanogenMod/lge-kernel-mako" path="kernel/lge/mako" remote="github" revision="jellybean"/>
 </manifest>
