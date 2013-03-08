@@ -14,13 +14,12 @@
   <remote  name="mallez"
            fetch="git://github.com/mallez/" />
 
-
   <default revision="refs/heads/cm-10.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="android_build" remote="mallez" revision="cm-10.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
