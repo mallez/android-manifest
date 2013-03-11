@@ -174,7 +174,7 @@
   <project path="external/openfst" name="CyanogenMod/android_external_openfst" />
   <project path="external/openssh" name="platform/external/openssh" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
-  <project path="external/openvpn" name="platform/external/openvpn" remote="linaro" revision="linaro_android_4.2.2" />
+  <project path="external/openvpn" name="android_external_openvpn" remote="mallez" revision="cm-10.1"/>
   <project path="external/oprofile" name="android_external_oprofile" remote="mallez" revision="cm-10.1"/>
   <project path="external/ping" name="platform/external/ping" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
