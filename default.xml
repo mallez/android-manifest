@@ -15,7 +15,7 @@
            fetch="git://github.com/mallez/" />
 
   <remote  name="linaro"
-           fetch="git://git.linaro.org" />
+           fetch="http://android.git.linaro.org/git-ro/" review="review.android.git.linaro.org"/>
 
   <default revision="refs/heads/cm-10.1"
            remote="github"
