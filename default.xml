@@ -14,6 +14,9 @@
   <remote  name="mallez"
            fetch="git://github.com/mallez/" />
 
+  <remote  name="linaro"
+           fetch="git://android.git.linaro.org" />
+
   <default revision="refs/heads/cm-10.1"
            remote="github"
            sync-c="true"
@@ -72,10 +75,10 @@
   <project path="external/dbus" name="CyanogenMod/android_external_dbus" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" />
-  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="external/doclava" name="CyanogenMod/android_external_doclava" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
-  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="external/easymock" name="CyanogenMod/android_external_easymock" />
   <project path="external/eclipse-basebuilder" name="CyanogenMod/android_external_eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="CyanogenMod/android_external_eclipse-windowbuilder" />
@@ -188,14 +191,14 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
   <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" />
+  <project path="external/skia" name="platform/external/skia" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" />
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
+  <project path="external/stlport" name="platform/external/stlport" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
   <project path="external/stressapptest" name="CyanogenMod/android_external_stressapptest" />
   <project path="external/svox" name="CyanogenMod/android_external_svox" />
@@ -226,7 +229,7 @@
   <project path="frameworks/compile/llvm-ndk-cc" name="CyanogenMod/android_frameworks_compile_llvm-ndk-cc" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
-  <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
@@ -242,7 +245,7 @@
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
-  <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="gdk" name="platform/gdk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
