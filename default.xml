@@ -70,7 +70,7 @@
   <project path="external/chromium" name="platform/external/chromium" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" />
   <project path="external/cibu-fonts" name="CyanogenMod/android_external_cibu-fonts" />
-  <project path="external/clang" name="CyanogenMod/android_external_clang" />
+  <project path="external/clang" name="platform/external/clang" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" />
   <project path="external/dbus" name="CyanogenMod/android_external_dbus" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" />
@@ -153,7 +153,7 @@
   <project path="external/littlemock" name="CyanogenMod/android_external_littlemock" />
   <project path="external/llvm" name="CyanogenMod/android_external_llvm" />
   <project path="external/lohit-fonts" name="CyanogenMod/android_external_lohit-fonts" />
-  <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
+  <project path="external/lsof" name="android_external_lsof" remote="mallez" revision="cm-10.1" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
   <project path="external/markdown" name="CyanogenMod/android_external_markdown" />
   <project path="external/mdnsresponder" name="CyanogenMod/android_external_mdnsresponder" />
