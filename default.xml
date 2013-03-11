@@ -191,7 +191,7 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
   <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" />
-  <project path="external/skia" name="platform/external/skia" remote="linaro" revision="linaro_android_4.2.2" />
+  <project path="external/skia" name="android_external_skia" remote="mallez" revision="cm-10.1" />
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" />
@@ -232,7 +232,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="mallez" revision="cm-10.1"/>
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
