@@ -242,7 +242,7 @@
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
-  <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" />
+  <project path="frameworks/rs" name="android_frameworks_rs" remote="mallez" revision="cm-10.1" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="linaro" revision="linaro_android_4.2.2" />
