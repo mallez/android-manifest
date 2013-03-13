@@ -27,9 +27,10 @@
   </project>
 
   <project path="android-manifest" name="android-manifest" remote="mallez" revision="cm-10.1" />
+  <project path="cm-changelog" name="cm-changelog" remote="mallez" revision="master" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
-  <project path="bionic" name="CyanogenMod/android_bionic" />
+  <project path="bionic" name="android_bionic" remote="mallez" revision="cm-10.1" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
