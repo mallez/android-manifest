@@ -209,7 +209,7 @@
   <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" />
   <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" />
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
-  <project path="external/v8" name="CyanogenMod/android_external_v8" />
+  <project path="external/v8" name="platform/external/v8" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="external/valgrind" name="CyanogenMod/android_external_valgrind" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
   <project path="external/webkit" name="android_external_webkit" remote="mallez" revision="cm-10.1" />
